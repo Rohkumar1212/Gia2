@@ -29,7 +29,7 @@ async function loadGalleryImages() {
                       <div class="card h-100 shadow-sm">
                         <img 
                           src="${BASE_IMAGE_URL + item.image}" 
-                          class="card-img-top img-fluid"
+                          class="card-img-top popup-image img-fluid"
                           alt="Gallery Image"                          
                           style="object-fit: cover; height: 250px;"
                         />

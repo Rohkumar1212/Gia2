@@ -2,7 +2,7 @@ const BASE_IMAGE_URL = "https://gallery.giaonline.org/api/image/";
 
 async function loadGalleryImages() {
   const API_URL =
-    "https://gallery.giaonline.org/api/gallery/by-category?category=gia_activity";
+    "https://gallery.giaonline.org/api/gallery/by-category?category=press_release";
 
   try {
     const response = await fetch(API_URL, {
