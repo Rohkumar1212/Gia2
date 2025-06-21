@@ -256,6 +256,9 @@
     margin-top: 0;
     transition: 0.5s;
   }
+  .btn.btn-secondary {
+    margin-bottom: 5px;
+  }
 
   .navbar .navbar-nav .nav-item::after,
   .navbar .navbar-nav .nav-item::before {
